@@ -274,7 +274,7 @@ a:active {
 
 #header-background-links{
     background-image: url('../pictures/topbar_links.jpg');
-    width: 100%;
+    width: 980px;
     height: 180px;
     background-size: cover; /* or contain depending on what you want */
     background-position: center center;
