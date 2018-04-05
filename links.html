@@ -1,295 +1,45 @@
 <!DOCTYPE HTML>
-<!--
-This is text
--->
-
 
 <html>
 	<head>
-		<title>Butterworth</title>
+	       <link rel="stylesheet"  type="text/css" href="bbutterworth.github.io/css/butterworth_styles.css" />
+
+		<title>Brian Butterworth</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">	
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-panels.min.js"></script>
-		<script src="js/init.js"></script>
-		<style type="text/css">
-<!--
-.style1 {color: #FFFFFF}
-.center-div
-{
-     margin: 0 auto;
-     width: 980px; 
-}		
-.gradient {
-  background-image:
-    linear-gradient(
-      #000000 180px, #FFFFFF 182px, #F4F4F4 182px, #FFFFFF 380px/*  #D8D8D8*/
-    );
-}
-			
-body,td,th {
-	color: #000000 ;<!--#FFFFFF  #CBFFFA;-->
-	text-shadow: 1px 1px 1px #000000;
-	background-color: #FFFFFF;  <!--#888888;#FFFFFF-->
-	font-size: 100%;
-	font-family: 'Arimo', sans-serif;
-	margin:0;
-	padding:0;
-}
-	
-			
-#wrapper {
-    width: 95%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 0px;
-    margin-left: 0px;
-}
-			
-p {
-	border-style: solid;
-	border-color: #555555;
-			}
-h1 {
-	color: #000000 ;<!-- torquoise = #CBFFFA; #FFFFFF-->
-	text-shadow: 1px 1px 1px #000000;
-	font-size: 200%;
-	font-family: 'Arimo', sans-serif;
-	margin: 5px 0 5px 0;
-}
-h2 {
-	color: #000000;
-	text-shadow: 1px 1px 1px #000000;
-}
-h3 {
-	color: #000000;
-	text-shadow: 1px 1px 1px #000000;
-}
-/* unvisited link */
-a:link {
-    color: red;
-}
-/* visited link */
-a:visited {
-    color: green;
-}
-/* mouse over link */
-a:hover {
-    color: hotpink;
-}
-/* selected link */
-a:active {
-    color: blue;
-}			
-			
 		
-			
-	
-			
-		#menu-bar {
-  width: 100%;
-  margin: 0px 0px 0px 0px;
-  padding: 6px 6px 4px 7%;
-  height: 40px;
-  line-height: 100%;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  box-shadow: 0px 0px 0px #666666;
-  -webkit-box-shadow: 0px 0px 0px #666666;
-  -moz-box-shadow: 0px 0px 0px #666666;
-  /*background: #FFFFFF;*/
-  border: solid 0px #6D6D6D;
-  position:relative;
-  z-index:999;
-}
-#menu-bar li {
-  margin: 0px 0px 0px 0px;
-  padding: 0px 6px 0px 6px;
-  float: left;
-  position: relative;
-  list-style: none;
-}
-#menu-bar a {
-  font-weight: normal;
-  font-family: 'Arimo', sans-serif; 
-  font-style: normal;
-  font-size: 20px;
-  color: #000000; /*#E7E5E5;*/
-  text-decoration: none;
-  display: block;
-  padding: 6px 20px 6px 20px;
-  margin: 0;
-  margin-bottom: 0px;
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  text-shadow: 1px 1px 1px #ccffff; /*#000000;*/
-}
-#menu-bar li ul li a {
-  margin: 0;
-}
-#menu-bar .active a, #menu-bar li:hover > a {
-  background: #0399D4;
-  background: linear-gradient(top,  #EBEBEB,  #A1A1A1);
-  background: -ms-linear-gradient(top,  #EBEBEB,  #A1A1A1);
-  background: -webkit-gradient(linear, left top, left bottom, from(#EBEBEB), to(#A1A1A1));
-  background: -moz-linear-gradient(top,  #EBEBEB,  #A1A1A1);
-  color: #444444;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
-  text-shadow: 1px 1px 1px #FFFFFF;
-}
-#menu-bar ul li:hover a, #menu-bar li:hover li a {
-  background: none;
-  border: none;
-  color: #666;
-  -box-shadow: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-}
-#menu-bar ul a:hover {
-  background: #263B4D !important;
-  background: linear-gradient(top,  #6C98C4,  #29618C) !important;
-  background: -ms-linear-gradient(top,  #6C98C4,  #29618C) !important;
-  background: -webkit-gradient(linear, left top, left bottom, from(#6C98C4), to(#29618C)) !important;
-  background: -moz-linear-gradient(top,  #6C98C4,  #29618C) !important;
-  color: #FFFFFF !important;
-  border-radius: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  text-shadow: 1px 1px 1px #FFFFFF;
-}
-#menu-bar li:hover > ul {
-  display: block;
-}
-#menu-bar ul {
-  background: #DDDDDD;
-  background: linear-gradient(top,  #FFFFFF,  #CFCFCF);
-  background: -ms-linear-gradient(top,  #FFFFFF,  #CFCFCF);
-  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CFCFCF));
-  background: -moz-linear-gradient(top,  #FFFFFF,  #CFCFCF);
-  display: none;
-  margin: 0;
-  padding: 0;
-  width: 185px;
-  position: absolute;
-  top: 30px;
-  left: 0;
-  border: solid 1px #B4B4B4;
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-box-shadow: 1px 1px 1px #222222;
-  -moz-box-shadow: 1px 1px 1px #222222;
-  box-shadow: 1px 1px 1px #222222;
-}
-#menu-bar ul li {
-  float: none;
-  margin: 0;
-  padding: 0;
-}
-#menu-bar ul a {
-  padding:10px 0px 10px 15px;
-  color:#424242 !important;
-  font-size:15px;
-  font-style:normal;
-  font-family: 'Arimo', sans-serif;
-  font-weight: normal;
-  text-shadow: 2px 2px 3px #FFFFFF;
-}
-#menu-bar ul li:first-child > a {
-  border-top-left-radius: 3px;
-  -webkit-border-top-left-radius: 3px;
-  -moz-border-radius-topleft: 3px;
-  border-top-right-radius: 3px;
-  -webkit-border-top-right-radius: 3px;
-  -moz-border-radius-topright: 3px;
-}
-#menu-bar ul li:last-child > a {
-  border-bottom-left-radius: 3px;
-  -webkit-border-bottom-left-radius: 3px;
-  -moz-border-radius-bottomleft: 3px;
-  border-bottom-right-radius: 3px;
-  -webkit-border-bottom-right-radius: 3px;
-  -moz-border-radius-bottomright: 3px;
-}
-#menu-bar:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
-#menu-bar {
-  display: inline-block;
-}
-  html[xmlns] #menu-bar {
-  display: block;
-}
-* html #menu-bar {
-  height: 1%;
-}
-	
-			
-			
-			
-			
-			
-.style2 {color: #000000}
--->
-        </style>
-<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
-		</noscript>
 	</head>
 	<body class="homepage">
-<div class="gradient">
-	
 		
 				
 		
-<div class="center-div">		
- <div id="wrapper">
-		
-<div class="nav">					
-	<ul id="menu-bar">
-	 <li class="active"><a href="#">Home</a></li>
-	 <li><a href="research.html">Research</a>
-	 </li>
-	<li><a href="pubs.html">Publications</a>
-	</li>
-	 <li><a href="cv.html">Curriculum Vitae</a>
-	 </li>
-	 <li><a href="links.html">Links</a></li>
-	 <li><a href="about.html">About Me</a></li>
-	</ul>
-</div>
+	<div class="center-div">		
+ 		<div id="wrapper">
+			<div class="nav">					
+				<ul id="menu-bar">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="research.html">Research</a>
+				</li>
+				<li><a href="pubs.html">Publications</a>
+				</li>
+				<li><a href="cv.html">Curriculum Vitae</a>
+				</li>
+				<li><a href="links.html">Links</a></li>
+				<li><a href="about.html">About Me</a></li>
+				</ul>
+			</div>
 	
-		
-		
-	<div class="container"><center><img src="images/pics01.jpg" alt="" width="980" border="1"></center></div>
-	 <div style="width: 980px; margin: 0 auto; overflow: hidden; ">
-    <div style="float: center; width: 980;">Sea ice forming in McMurdo Sound. Photograph taken from the Nathaniel B. Palmer in February 2013.</div>
-		<br><br><br>
-		    <div style="float: center; width: 980; color: #D8D8D8" align="center">Last Updated: April 2018</div>
-<!--    <div style="float: right; width: 20%;">Right Column</div> -->
-</div>
-	</div>	
+			<div class="container"><center><img src="images/pics01.jpg" alt="" width="980" border="1"></center></div>
+	 			<div style="width: 980px; margin: 0 auto; overflow: hidden; ">
+    					<div style="float: center; width: 980;">Sea ice forming in McMurdo Sound. Photograph taken from the Nathaniel B. Palmer in February 2013.
+					</div>
+				</div>
+			</div>	
+		 </div> <!--      wrapper-->
+	</div> <!--gradient-->
 	
-	
-		  </div> <!--      wrapper-->
-		</div> <!--gradient-->
 	</body>
 </html>
-<!-- EXTRAS -->
-<!--    border: 1px solid black;      B6DB90-->
-<!-- COLOR CONTRASTS:  CCCCCC	003366	FFFFFF	CCCC99 -->
-<!-- background-color: #344A87; -->
