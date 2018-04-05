@@ -266,3 +266,30 @@ a:active {
 			
 			
 .style2 {color: #000000}
+
+
+
+
+
+
+#header-background-links{
+    background-image: url('../pictures/topbar_links.jpg');
+    width: 100%;
+    height: 180px;
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+    border-bottom-width:2px;
+    border-bottom-color:#FFFFFF;
+    border-bottom-style: solid;
+}
+
+
+
+
+
+
