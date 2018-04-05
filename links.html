@@ -1,201 +1,295 @@
 <!DOCTYPE HTML>
 <!--
-	Tapestry by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->		
+This is text
+-->
+
+
 <html>
 	<head>
-		<title>Tapestry by TEMPLATED</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Butterworth</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<link href="http://fonts.googleapis.com/css?family=Oswald:400,300" rel="stylesheet" type="text/css" />
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">	
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-panels.min.js"></script>
 		<script src="js/init.js"></script>
-		<noscript>
+		<style type="text/css">
+<!--
+.style1 {color: #FFFFFF}
+.center-div
+{
+     margin: 0 auto;
+     width: 980px; 
+}		
+.gradient {
+  background-image:
+    linear-gradient(
+      #000000 180px, #FFFFFF 182px, #F4F4F4 182px, #FFFFFF 380px/*  #D8D8D8*/
+    );
+}
+			
+body,td,th {
+	color: #000000 ;<!--#FFFFFF  #CBFFFA;-->
+	text-shadow: 1px 1px 1px #000000;
+	background-color: #FFFFFF;  <!--#888888;#FFFFFF-->
+	font-size: 100%;
+	font-family: 'Arimo', sans-serif;
+	margin:0;
+	padding:0;
+}
+	
+			
+#wrapper {
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+			
+p {
+	border-style: solid;
+	border-color: #555555;
+			}
+h1 {
+	color: #000000 ;<!-- torquoise = #CBFFFA; #FFFFFF-->
+	text-shadow: 1px 1px 1px #000000;
+	font-size: 200%;
+	font-family: 'Arimo', sans-serif;
+	margin: 5px 0 5px 0;
+}
+h2 {
+	color: #000000;
+	text-shadow: 1px 1px 1px #000000;
+}
+h3 {
+	color: #000000;
+	text-shadow: 1px 1px 1px #000000;
+}
+/* unvisited link */
+a:link {
+    color: red;
+}
+/* visited link */
+a:visited {
+    color: green;
+}
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+/* selected link */
+a:active {
+    color: blue;
+}			
+			
+		
+			
+	
+			
+		#menu-bar {
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 6px 6px 4px 7%;
+  height: 40px;
+  line-height: 100%;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  box-shadow: 0px 0px 0px #666666;
+  -webkit-box-shadow: 0px 0px 0px #666666;
+  -moz-box-shadow: 0px 0px 0px #666666;
+  /*background: #FFFFFF;*/
+  border: solid 0px #6D6D6D;
+  position:relative;
+  z-index:999;
+}
+#menu-bar li {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 6px 0px 6px;
+  float: left;
+  position: relative;
+  list-style: none;
+}
+#menu-bar a {
+  font-weight: normal;
+  font-family: 'Arimo', sans-serif; 
+  font-style: normal;
+  font-size: 20px;
+  color: #000000; /*#E7E5E5;*/
+  text-decoration: none;
+  display: block;
+  padding: 6px 20px 6px 20px;
+  margin: 0;
+  margin-bottom: 0px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  text-shadow: 1px 1px 1px #ccffff; /*#000000;*/
+}
+#menu-bar li ul li a {
+  margin: 0;
+}
+#menu-bar .active a, #menu-bar li:hover > a {
+  background: #0399D4;
+  background: linear-gradient(top,  #EBEBEB,  #A1A1A1);
+  background: -ms-linear-gradient(top,  #EBEBEB,  #A1A1A1);
+  background: -webkit-gradient(linear, left top, left bottom, from(#EBEBEB), to(#A1A1A1));
+  background: -moz-linear-gradient(top,  #EBEBEB,  #A1A1A1);
+  color: #444444;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  text-shadow: 1px 1px 1px #FFFFFF;
+}
+#menu-bar ul li:hover a, #menu-bar li:hover li a {
+  background: none;
+  border: none;
+  color: #666;
+  -box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+#menu-bar ul a:hover {
+  background: #263B4D !important;
+  background: linear-gradient(top,  #6C98C4,  #29618C) !important;
+  background: -ms-linear-gradient(top,  #6C98C4,  #29618C) !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6C98C4), to(#29618C)) !important;
+  background: -moz-linear-gradient(top,  #6C98C4,  #29618C) !important;
+  color: #FFFFFF !important;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  text-shadow: 1px 1px 1px #FFFFFF;
+}
+#menu-bar li:hover > ul {
+  display: block;
+}
+#menu-bar ul {
+  background: #DDDDDD;
+  background: linear-gradient(top,  #FFFFFF,  #CFCFCF);
+  background: -ms-linear-gradient(top,  #FFFFFF,  #CFCFCF);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CFCFCF));
+  background: -moz-linear-gradient(top,  #FFFFFF,  #CFCFCF);
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 185px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  border: solid 1px #B4B4B4;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 1px #222222;
+  -moz-box-shadow: 1px 1px 1px #222222;
+  box-shadow: 1px 1px 1px #222222;
+}
+#menu-bar ul li {
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+#menu-bar ul a {
+  padding:10px 0px 10px 15px;
+  color:#424242 !important;
+  font-size:15px;
+  font-style:normal;
+  font-family: 'Arimo', sans-serif;
+  font-weight: normal;
+  text-shadow: 2px 2px 3px #FFFFFF;
+}
+#menu-bar ul li:first-child > a {
+  border-top-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+}
+#menu-bar ul li:last-child > a {
+  border-bottom-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+}
+#menu-bar:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#menu-bar {
+  display: inline-block;
+}
+  html[xmlns] #menu-bar {
+  display: block;
+}
+* html #menu-bar {
+  height: 1%;
+}
+	
+			
+			
+			
+			
+			
+.style2 {color: #000000}
+-->
+        </style>
+<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-desktop.css" />
 		</noscript>
 	</head>
-	<body>
-		<div id="header-wrapper">
-			<div class="container">
-				<div id="header">
-					<div id="logo">
-						<h1><a href="#">Tapestry</a></h1>
-						<span>by TEMPLATED</span>
-					</div>
-					<nav id="nav">
-						<ul>
-							
-							<li><a href="index.html">Home</a></li>
-							<li><a href="research.html">Research</a></li>
-							<li><a href="cv.html">Curriculum Vitae</a></li>
-							<li class="current_page_item"><a href="links.html">Links</a></li>
-							<li><a href="about.html">About Me</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
-		<div id="wrapper">
-			<div id="page">
-				<div class="container">
-					<div class="row">
-						<div class="3u" id="sidebar2">
-							<section>
-								<div class="sbox1">
-									<h2>Nulla luctus eleifend</h2>
-									<ul class="style1">
-										<li class="first"><a href="#">Maecenas luctus lectus at sapien</a></li>
-										<li><a href="#">Etiam rhoncus volutpat erat</a></li>
-										<li><a href="#">Donec dictum metus in sapien</a></li>
-										<li><a href="#">Nulla luctus eleifend purus</a></li>
-										<li><a href="#">Maecenas luctus lectus at sapien</a></li>
-										<li><a href="#">Donec dictum metus in sapien</a></li>
-									</ul>
-								</div>
-							</section>
-							<section>
-								<h2>Fusce ultrices fringilla</h2>
-								<ul class="style2">
-									<li class="first">
-										<p><a href="#"><img src="images/pics09.jpg" alt="">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. </a></p>
-									</li>
-									<li>
-										<p><a href="#"><img src="images/pics10.jpg" alt="">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. </a></p>
-									</li>
-									<li>
-										<p><a href="#"><img src="images/pics08.jpg" alt="">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. </a></p>
-									</li>
-								</ul>
-							</section>
-						</div>
-						<div class="9u skel-cell-important" id="content">
-							<section>
-								<div class="post">
-									<h2>Two Column #2</h2>
-									<p>Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Duis pretium velit ac mauris. Proin eu wisi suscipit nulla suscipit interdum. Aenean lectus lorem, imperdiet at, ultrices eget, ornare et, wisi. Pellentesque adipiscing purus ac magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.									Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna, elementum ut, vestibulum eu, facilisis quis, arcu. Mauris a dolor. Nulla facilisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed blandit. Phasellus pellentesque, ante nec iaculis dapibus, eros justo auctor lectus, a lobortis lorem mauris quis nunc. Praesent pellentesque facilisis elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. In hac habitasse platea dictumst. Nullam id ante eget dui vulputate aliquam. Pellentesque erat erat, tincidunt in, eleifend accumsan, malesuada eget, augue. Suspendisse sit amet tellus in eros bibendum condimentum. Vestibulum suscipit volutpat nulla. 
-									Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. </p>
-									<p>&nbsp;</p>
-									<p>Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus. Quisque eleifend. Phasellus tempor vehicula justo. Aliquam lacinia metus ut elit. Suspendisse iaculis mauris nec lorem. Donec leo. Vivamus fermentum nibh in augue. Praesent a lacus at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Duis enim nulla, luctus eu, dapibus lacinia, venenatis id, quam. Vestibulum imperdiet, magna nec eleifend rutrum, nunc lectus vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum pellentesque, justo mollis pretium suscipit, justo nulla blandit libero, in blandit augue justo quis nisl. Fusce mattis viverra elit. Fusce quis tortor.									In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula.</p>
-									<p>&nbsp;</p>
-									<p>Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Duis pretium velit ac mauris. Proin eu wisi suscipit nulla suscipit interdum. Aenean lectus lorem, imperdiet at, ultrices eget, ornare et, wisi. Pellentesque adipiscing purus ac magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.									Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna, elementum ut, vestibulum eu, facilisis quis, arcu. Mauris a dolor. Nulla facilisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed blandit. Phasellus pellentesque, ante nec iaculis dapibus, eros justo auctor lectus, a lobortis lorem mauris quis nunc. Praesent pellentesque facilisis elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. In hac habitasse platea dictumst. Nullam id ante eget dui vulputate aliquam. Pellentesque erat erat, tincidunt in, eleifend accumsan, malesuada eget, augue.
-									In hac habitasse platea dictumst. Nullam id ante eget dui vulputate aliquam. Pellentesque erat erat, tincidunt in, eleifend accumsan, malesuada eget, augue. In hac habitasse platea dictumst. Nullam id ante eget dui vulputate aliquam. Pellentesque erat erat, tincidunt in, eleifend accumsan, malesuada eget, augue.</p>
-								</div>
-							</section>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="featured-area">
-			<div class="container">
-				<div class="row divider">
-					<div class="4u">
-						<section>
-							<div class="box-style"> <a href="#"><img src="images/pics04.jpg" alt=""></a>
-								<h3>Etiam posuere augue</h3>
-								<p>Donec nonummy magna quis risus. Quisque eleifend. </p>
-								<p class="button-style2"><a href="#">More</a></p>
-							</div>
-						</section>
-					</div>
-					<div class="4u">
-						<section>
-							<div class="box-style"> <a href="#"><img src="images/pics03.jpg" alt=""></a>
-								<h3>Etiam posuere augue</h3>
-								<p>Donec nonummy magna quis risus. Quisque eleifend. </p>
-								<p class="button-style2"><a href="#">More</a></p>
-							</div>
-						</section>
-					</div>
-					<div class="4u">
-						<section>
-							<div class="box-style"> <a href="#"><img src="images/pics05.jpg" alt=""></a>
-								<h3>Etiam posuere augue</h3>
-								<p>Donec nonummy magna quis risus. Quisque eleifend. </p>
-								<p class="button-style2"><a href="#">More</a></p>
-							</div>
-						</section>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="footer-wrapper">
-			<div class="container">
-				<div class="row" id="footer-content">
-					<div class="3u" id="box1">
-						<section>
-							<h2>Maecenas luctus lectus</h2>
-							<div class="balloon">
-								<blockquote>&ldquo;&nbsp;&nbsp;Donec leo, vivamus ullamcorper fermentum nibh in augue pulvinar ullamcorper metus praesent a lacus at urna congue ullamcorper  rutrum.&nbsp;&nbsp;&rdquo;<br>
-								<br>
-								<strong>&ndash;&nbsp;&nbsp;John Smith</strong></blockquote>
-							</div>
-							<div class="ballon-bgbtm">&nbsp;</div>
-							<p></p>
-						</section>
-					</div>
-					<div class="3u" id="box2">
-						<section>
-							<h2>Donec dictum metus</h2>
-							<ul class="style6">
-								<li class="first">
-									<h3>Mauris vulputate dolor sit amet</h3>
-									<p><a href="#">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum.</a></p>
-								</li>
-								<li>
-									<h3>Fusce ultrices fringilla metus</h3>
-									<p><a href="#">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum.</a></p>
-								</li>
-								<li>
-									<h3>Donec dictum metus in sapien</h3>
-									<p><a href="#">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum.</a></p>
-								</li>
-							</ul>
-						</section>
-					</div>
-					<div class="3u" id="box3">
-						<section>
-							<h2>Nulla luctus eleifend</h2>
-							<ul class="style1">
-								<li class="first"><a href="#">Maecenas luctus lectus at sapien</a></li>
-								<li><a href="#">Etiam rhoncus volutpat erat</a></li>
-								<li><a href="#">Donec dictum metus in sapien</a></li>
-								<li><a href="#">Nulla luctus eleifend purus</a></li>
-								<li><a href="#">Maecenas luctus lectus at sapien</a></li>
-								<li><a href="#">Etiam rhoncus volutpat erat</a></li>
-								<li><a href="#">Donec dictum metus in sapien</a></li>
-							</ul>
-						</section>
-					</div>
-					<div class="3u" id="box4">
-						<section>
-							<h2>Tristique eleifend</h2>
-							<p><strong>Aliquam erat volutpat. Pellentesque tristique ante ut risus. </strong></p>
-							<p>&nbsp;</p>
-							<p>Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Suspendisse dictum porta lectus. </p>
-							<p>&nbsp;</p>
-							<p>Donec placerat odio vel elit. Nullam ante orci, pellentesque eget, tempus quis, ultrices in, est. Curabitur sit amet nulla. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat.</p>
-						</section>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="copyright">
-			<div class="container">
-				<div class="row">
-					<div class="12u">
-						<p>&copy; Your Site Name | Images: <a href="http://fotogrph.com/">Fotogrph</a> | Design: <a href="http://TEMPLATED.CO/">TEMPLATED.CO</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
+	<body class="homepage">
+<div class="gradient">
+	
+		
+				
+		
+<div class="center-div">		
+ <div id="wrapper">
+		
+<div class="nav">					
+	<ul id="menu-bar">
+	 <li class="active"><a href="#">Home</a></li>
+	 <li><a href="research.html">Research</a>
+	 </li>
+	<li><a href="pubs.html">Publications</a>
+	</li>
+	 <li><a href="cv.html">Curriculum Vitae</a>
+	 </li>
+	 <li><a href="links.html">Links</a></li>
+	 <li><a href="about.html">About Me</a></li>
+	</ul>
+</div>
+	
+		
+		
+	<div class="container"><center><img src="images/pics01.jpg" alt="" width="980" border="1"></center></div>
+	 <div style="width: 980px; margin: 0 auto; overflow: hidden; ">
+    <div style="float: center; width: 980;">Sea ice forming in McMurdo Sound. Photograph taken from the Nathaniel B. Palmer in February 2013.</div>
+		<br><br><br>
+		    <div style="float: center; width: 980; color: #D8D8D8" align="center">Last Updated: April 2018</div>
+<!--    <div style="float: right; width: 20%;">Right Column</div> -->
+</div>
+	</div>	
+	
+	
+		  </div> <!--      wrapper-->
+		</div> <!--gradient-->
 	</body>
 </html>
+<!-- EXTRAS -->
+<!--    border: 1px solid black;      B6DB90-->
+<!-- COLOR CONTRASTS:  CCCCCC	003366	FFFFFF	CCCC99 -->
+<!-- background-color: #344A87; -->
