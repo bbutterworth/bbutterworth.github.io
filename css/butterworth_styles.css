@@ -9,19 +9,19 @@
 .gradient {
   background-image:
     linear-gradient(
-       #FFFFFF 0px, #000000 180px, #FFFFFF 182px, #F4F4F4 182px, red 380px/*  #D8D8D8*/
+       #FFFFFF 0px, #000000 180px, #FFFFFF 182px, #F4F4F4 182px, #FFFFFF 380px/*  #D8D8D8*/
     );
 }
 .gradient-subpages {
   background-image:
     linear-gradient(
 	/*#FFFFFF 0px, #D8D8D8 180px, #FFFFFF 182px, #F4F4F4 182px, #FFFFFF 380px  #D8D8D8*/
-       #FFFFFF 0px, #D8D8D8 90px, #FFFFFF 90px, #F4F4F4 92px, #FFFFFF 580px  
+       #FFFFFF 0px, #D8D8D8 90px, #FFFFFF 90px, #F4F4F4 92px, #FFFFFF 380px  
     );
 }			
 body,td,th {
 	color: #000000 ;/*#FFFFFF  #CBFFFA; */
-	background-color: red;  /*#888888;#FFFFFF */
+	background-color: #FFFFFF;  /*#888888;#FFFFFF */
 	/*text-shadow: 1px 1px 1px #000000;*/
 	font-size: 100%;
 	font-family: 'Arimo', sans-serif;
