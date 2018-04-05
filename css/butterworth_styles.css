@@ -28,10 +28,16 @@ body,td,th {
 	padding:0;
 }
 	
+
+:root {
+  --pic1: '../pictures/topbar_bw.jpg';
+  --pic2: '../pictures/topbar_bw.jpg';
+}
+
 #header-background{
     width: 100%;
     height: 180px;
-    background-image: url('../pictures/topbar_bw.jpg');
+    background-image: url(var(--pic1));
 	  background-size: cover; /* or contain depending on what you want */
   background-position: center center;
   background-repeat: no-repeat;
@@ -43,6 +49,7 @@ body,td,th {
     border-bottom-color:#FFFFFF;<!--#CBFFFA;-->
     border-bottom-style: solid;
 }
+
 			
 #header{
     width: 980px;
