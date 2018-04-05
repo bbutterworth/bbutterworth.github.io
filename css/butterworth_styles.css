@@ -15,7 +15,8 @@
 .gradient-subpages {
   background-image:
     linear-gradient(
-       #FFFFFF 0px, #D8D8D8 90px, #FFFFFF 90px, #F4F4F4 92px, #FFFFFF 290px/*  #D8D8D8*/
+	#FFFFFF 0px, #D8D8D8 180px, #FFFFFF 182px, #F4F4F4 182px, #FFFFFF 380px/*  #D8D8D8*/
+       /*#FFFFFF 0px, #D8D8D8 90px, #FFFFFF 90px, #F4F4F4 92px, #FFFFFF 290px  #D8D8D8*/
     );
 }			
 body,td,th {
