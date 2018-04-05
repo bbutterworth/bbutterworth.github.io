@@ -22,7 +22,7 @@
 body,td,th {
 	color: #000000 ;/*#FFFFFF  #CBFFFA; */
 	background-color: #FFFFFF;  /*#888888;#FFFFFF */
-	text-shadow: 1px 1px 1px #000000;
+	/*text-shadow: 1px 1px 1px #000000;*/
 	font-size: 100%;
 	font-family: 'Arimo', sans-serif;
 	margin:0;
