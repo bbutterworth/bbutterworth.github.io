@@ -274,6 +274,19 @@ a:active {
 
 
 #header-background-links{
+    background-image: url('../pictures/background-links.jpg');
+    width: 980px;
+    height: 180px;
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#header-background-research{
     background-image: url('../pictures/background-research.jpg');
     width: 980px;
     height: 180px;
@@ -286,7 +299,31 @@ a:active {
     padding: 0;
 }
 
+#header-background-pubs{
+    background-image: url('../pictures/background-pubs.jpg');
+    width: 980px;
+    height: 180px;
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+}
 
+#header-background-about{
+    background-image: url('../pictures/background-about.jpg');
+    width: 980px;
+    height: 180px;
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+}
 
 
 
