@@ -325,6 +325,18 @@ a:active {
     padding: 0;
 }
 
+#header-background-cv{
+    background-image: url('../pictures/background-cv.jpg');
+    width: 980px;
+    height: 180px;
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+}
 
 
 
