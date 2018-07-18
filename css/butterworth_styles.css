@@ -364,10 +364,12 @@ a:active {
 .about-pic {
     float: right
 }
+.about-content {
+    margin-right: 0px
+}
+
+/* 
 .about-pic img {
     display: block
 }
-.about-content {
-    margin-right: 210px
-}
-
+*/
