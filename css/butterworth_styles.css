@@ -358,8 +358,7 @@ a:active {
 
 /* ABOUT */
 .about-container {
-    margin: 20px 20px 0 0;  
-    border: 5px solid #333;
+    margin: 200px 200px 0 0;  
     overflow: auto
 }
 .about-pic {
