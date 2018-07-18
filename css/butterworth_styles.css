@@ -355,22 +355,3 @@ a:active {
 }
 
 
-
-/* ABOUT */
-.about-container {
-    margin: 0 0 0 0;  
-    overflow: auto
-}
-.about-pic {
-    float: right
-}
-.about-content {
-    margin-right: 20px
-	    border: 0
-}
-
-/* 
-.about-pic img {
-    display: block
-}
-*/
