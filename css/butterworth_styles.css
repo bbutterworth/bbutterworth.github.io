@@ -289,6 +289,19 @@ a:active {
     padding: 0;
 }
 
+#header-background-video{
+    background-image: url('../pictures/background-video.jpg');
+    width: 980px;
+    height: 180px;
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+}
+
 #header-background-research{
     background-image: url('../pictures/background-research.jpg');
     width: 980px;
